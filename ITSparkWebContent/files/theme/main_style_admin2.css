@@ -1,0 +1,150 @@
+*|* {
+	margin:0pt;
+	padding:0pt;
+}
+body {
+	background: transparent url(background.jpg) repeat-x center top;
+	background-color:#fff;
+	font-family:"lucida sans", arial, sans-serif;
+	font-size:.75em;
+	color:#333333;
+	margin:0;
+	padding:0;
+}
+p {
+	 line-height:1.5;
+}
+h1, h2, h3{
+	 line-height:1.5;
+}
+#wrapper {
+	width:100%;
+	margin:0pt auto;
+}
+#contents {
+	width:960px;
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+	margin:0pt auto;
+}
+#header {
+	float:left;
+	width:960px;
+	height:148px;
+	text-align:middle;
+	margin:0pt auto;
+}
+#sitename {
+	position:relative;
+	float:left;
+	height: 100%;
+	font-family:"kucida grande","lucida sans", arial, sans-serif;
+	font-size:2.5em;
+	text-align:center;
+}
+#sitename, #sitename a {
+	font-weight:normal;
+	color:#fff;
+        text-decoration: none;
+}
+#navigation {
+	float:left;
+	width:960px;
+	height:23px;
+	margin-bottom:8px;
+	padding-top:12px;
+	font-family:"lucida sans", arial, sans-serif;
+	font-size:1em;
+}
+#navigation ul {
+	float:left;	
+	margin-left:0px;
+}
+*html #navigation ul {
+	margin-left:0px;
+}
+#navigation li {
+	display:inline;
+	font-size:1em;
+	padding-right:8px;
+	padding-left:5px;
+	padding:12px 30px 11px 0;
+	height:40px;
+}
+*html #navigation li {
+	margin-right:4px;
+}
+#active {
+	color:#fff;
+	text-align:center;
+}
+#navigation a:link  {
+	color:#fff;
+	text-decoration:none;	
+}
+#navigation a:hover  {
+	color:#7ec0f9;
+	text-decoration:none;	
+}
+#navigation a:visited  {
+	color:#fff;
+	text-decoration:none;	
+}
+#active a:link  {
+	color:#7ec0f9;
+	text-decoration:none;	
+}
+#active a:hover {
+	color:#7ec0f9;
+	text-decoration:none;	
+}
+#active a:visited {
+	color:#7ec0f9;
+	text-decoration:none;	
+}
+a:link, a:hover, a:visited {
+	color:#198bef;
+	font-weight:normal;
+	text-decoration:underline;
+}
+#main {
+	clear:both;
+	width:920px;
+	padding:30px 0 30px 0;
+}
+img.image-left {
+	margin-right:15px;
+	float:left;
+}
+img.image-right {
+	margin-left:15px;
+	float:right;
+}
+#footer {
+	float:left;
+	width:960px;	
+	margin:20px 0 30px 0;
+	border-top:1px solid #333;
+}
+#footer-contents {
+	float:left;
+	color:#333333;
+	font-family:"lucida grande", "lucida sans", arial, sans-serif;
+	padding:15px 0 0 20px;
+	width:940px;
+	height:28px;
+}
+*html #footer-contents {
+	margin-top:-5px;
+}
+input {
+	background-color:#fff;
+	border:1px solid #999;
+	font-size:12px;
+}
+textarea {
+	background-color:#fff;
+	border:1px solid #999;
+	font-size:12px;
+}

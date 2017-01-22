@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+ 
+ <context-param>
+  <param-name>type4</param-name>
+  <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+ </context-param>
+ 
+ <session-config>
+  <session-timeout>20</session-timeout>
+ </session-config>
+ 
+ <welcome-file-list>
+  <welcome-file>index.jsp</welcome-file>
+ </welcome-file-list>
+ 
+ <error-page>
+  <exception-type>java.lang.Throwable</exception-type>
+  <location>/unknown-error.jsp</location>
+ </error-page>
+ 
+ <error-page>
+  <error-code>404</error-code>
+  <location>/unknown-error.jsp</location>
+ </error-page>
+ 
+
+ 
+  <context-param>
+     <param-name>oracle_driver</param-name>
+     <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+ </context-param>
+   
+  <context-param>
+     <param-name>oracle_url</param-name>
+     <param-value>jdbc:oracle:thin:@localhost:1521:XE</param-value>
+ </context-param>
+ 
+ <context-param>
+     <param-name>oracle_username</param-name>
+     <param-value>system</param-value>
+ </context-param>
+ 
+ <context-param>
+     <param-name>oracle_password</param-name>
+     <param-value>oracle</param-value>
+ </context-param>
+ 
+    
+    <context-param>
+     <param-name>mysql_driver</param-name>
+     <param-value>com.mysql.jdbc.Driver</param-value>
+ </context-param>
+ 
+  <context-param>
+     <param-name>mysql_url</param-name>
+     <param-value>jdbc:mysql://localhost:3306/</param-value>
+ </context-param>
+ 
+  <context-param>
+     <param-name>mysql_db</param-name>
+     <param-value>spark</param-value>
+</context-param>
+ 
+  <context-param>
+     <param-name>mysql_username</param-name>
+     <param-value>root</param-value>
+ </context-param>
+ 
+  <context-param>
+     <param-name>mysql_password</param-name>
+     <param-value>LOVE1@nother</param-value>
+</context-param>
+  
+ <!--  
+  
+ main xml
+ 
+ 
+ -->
+ 
+ 
+ 
+</web-app>

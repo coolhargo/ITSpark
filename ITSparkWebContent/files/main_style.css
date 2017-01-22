@@ -1,0 +1,45 @@
+*|* { margin:0pt; padding:0pt; }
+ body { background: transparent url(theme/background.jpg?463649) repeat-x center top; background-color:#fff; font-family:"lucida sans", verdana, arial, sans-serif; font-size:13px; color:#666666; margin:0; padding:0; }
+ div.paragraph { line-height:1.5; padding-bottom:12px; }
+ p { line-height:1.5; padding-bottom:12px; }
+ h1 { font-size:20px; font-weight:bold; color:#333; }
+ h2 { font-size:14px; font-weight:bold; color:#333; }
+ #wrapper { width:960px; margin:0pt auto; }
+ #header { float:left; width:960px; height:105px; }
+ #sitename { float:left; width:960px; height: 70px; padding: 10px 0; font-size:30px; font-family:"helvetica nueue", arial, sans-serif; }
+ #sitename, #sitename a { color:#cccccc; font-weight:bold; }
+ #content-wrapper { float:left; width:960px; }
+ #contents-body { float:left; width:960px; padding:0 20px 10px 0px; }
+ .wsite-header { float:left; background:transparent url(theme/default_header.jpg?463649) no-repeat center top; width:732px; height:194px; margin:30px 0 15px 16px; }
+ #navigation { float:left; width:212px; margin-bottom:200px; padding-top:30px; font-size:12px; }
+ #navigation ul{ padding-left: 0px; margin-top: 0px; margin-bottom: 0px; }
+ #nav-top { float:left; background:transparent url(theme/nav_top.gif?463649) no-repeat center top; width:212px; height:25px; }
+ #navigation-links { float:left; width:212px; }
+ #navigation-links ul { float:left; background-color:#f7f7f7; width:210px; color:#666666; padding-bottom:15px; margin-left:0px; border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc; }
+ #navigation-links li { background:transparent url(theme/navlink_background.gif?463649) no-repeat center top; font-size:13px; list-style-type:none; text-align:left; padding:11px 0px 11px 10px; }
+ #active { color:#0081cd; }
+ #navigation-links a:link { color:#666666; text-decoration:none; }
+ #navigation-links a:hover { color:#666666; text-decoration:none; }
+ #navigation-links a:visited { color:#666666; text-decoration:none; }
+ #active a:link { color:#0081cd; text-decoration:none; }
+ #active a:hover { color:#0081cd; text-decoration:none; }
+ #active a:visited { color:#0081cd; text-decoration:none; }
+ a:link, a:hover, a:visited { color:#0081cd; font-weight:normal; text-decoration:none; }
+ .wsite-header { background:transparent url(theme/default_header.jpg?463649) no-repeat center top; width:732px; height:194px; padding-bottom:25px; }
+ #contents { float:left; width:732px; padding:0px 0 0 16px; }
+ #footer { float:left; height:39px; margin-bottom:30px; }
+ #footer-contents { float:left; color:#666666; font-family:"lucida sans", verdana, arial, sans-serif; padding:14px 10px 0 12px; }
+ #wsite-menus .wsite-menu-wrap { z-index: 5000; }
+ #wsite-menus .wsite-menu { padding: 0; margin: 0; list-style: none; }
+ #wsite-menus .wsite-menu li { float: left; clear: left; width: 170px; text-align: left; }
+ #wsite-menus .wsite-menu li a { position: relative; display: block; width: 100%; background: #f7f7f7; border-right: 1px solid #ccc; border-left: 1px solid #ccc; border-bottom: 1px dotted #ccc; text-decoration: none; font-size: 13px; font-weight: normal; line-height:1; padding:7px; color: #666666; }
+ #wsite-menus .wsite-menu li a:hover { background: #e3e3e3; }
+ #wsite-menus span.wsite-menu-title { display: block; padding: 5px 10px; }
+ #wsite-menus span.wsite-menu-more { background: transparent url(http://images.weebly.com/weebly/images/submenu_arrow.gif) no-repeat center top; display: block; position: absolute; right: 5px; top: 0; font-family: Courier; height: 28px; line-height: 28px; padding:5px 0 5px 0; }
+ .wsite-footer div.paragraph { color: rgb(102, 102, 102); font-size: 13px; }
+ .wsite-footer p { color: rgb(102, 102, 102); font-size: 13px; }
+
+div.paragraph ul, div.paragraph ol { padding-left: 25px !important; margin: 5px 0 !important; overflow:hidden; }
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
+div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
+div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }

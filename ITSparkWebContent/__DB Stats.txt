@@ -1,0 +1,35 @@
+Current db stats.: access
+
+
+migrating>>oracle10g
+
+
+
+<!--cache control statements-->
+
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+<!--session management frwrding -->
+
+<%
+System.out.println("\n\n\n LoggedStatus>> " +session.getAttribute("LoggedStatus"));
+
+if(session.getAttribute("LoggedStatus")==null){
+	
+	System.out.println("\n\n Session has Expired ... need to relogin");
+	
+	
+	RequestDispatcher view = request.getRequestDispatcher("re-login.jsp");
+	
+	view.forward(request, response);
+}
+
+%>
+
+
+
+
+<br />For read more information:<br /><br /><br /><a href="http://it-spark-corporation.blogspot.in/" target="_blank">RESOURCE CENTER</a><br />
+

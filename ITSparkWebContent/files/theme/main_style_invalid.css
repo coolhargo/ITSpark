@@ -1,0 +1,292 @@
+	/*#############################################################
+Name: Indigo
+Description: A lightweight (7kb images), simple and professional design.
+Date: 2006-07-27
+Author: Viktor Persson
+URL: http://arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* standard elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #F70;
+}
+a:hover {
+	color: #C60;
+}
+body {
+	background: #0094D6 url(bg.gif) repeat-x scroll %%BACKGROUNDPOSITION%%;
+	color: #466;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+	margin: 0;
+}
+input {
+	color: #555;
+	font: normal 1.1em "Lucida Sans Unicode",sans-serif;
+}
+p,cite,code,ul {
+	font-size: 1.2em;
+	padding-bottom: 1.2em;
+}
+h2 {
+	font-size: 1.4em;
+	margin-bottom: 4px;
+}
+code {
+	background: url(bgcode.gif);
+	border: 1px solid #F0F0F0;
+	border-left: 6px solid #39F;
+	color: #555;
+	display: block;
+	font: normal 1.1em "Lucida Sans Unicode",serif;
+	margin-bottom: 12px;
+	padding: 8px 10px;
+	white-space: pre;
+}
+cite {
+	background: url(quote.gif) no-repeat;
+	color: #666;
+	display: block;
+	font: normal 1.3em "Lucida Sans Unicode",serif;
+	padding-left: 28px;
+}
+h1,h2,h3 {
+	color: #06C;
+	padding-top: 6px;
+}
+/* misc */
+.clearer {
+	clear: both;
+}
+
+/* structure */
+.container {
+	float:left;
+	background: url(topleft.gif) no-repeat;
+	
+}
+
+.header {
+	float:left;
+	height: 92px;
+}
+
+
+/* title */
+.title {
+	float: left;
+	padding: 22px 0px 0 76px;
+        height: 45px;
+}
+.title h1 {
+	font: normal 2em Verdana,sans-serif;
+        padding: 0;
+}
+.title, .title a {
+	color: #FFF;
+        text-decoration: none;
+}
+/* navigation */
+.navigation {
+	float:left;
+	margin-left: 24px;
+	padding: 0 16px;
+
+}
+*html .navigation {
+	height:80px;
+}
+.navigation ul {
+	float:left;
+	list-style-type:none;
+}
+*html .navigation ul {
+	margin-top:18px;
+	height:60px;
+	padding:0;
+}
+.navigation li {
+	float:left;
+	display:inline;
+}
+.navigation a {
+	color: #FFF;
+	float: left;
+	font: bold 12px "Trebuchet MS",sans-serif;
+	margin-top: 56px;
+	padding: 8px 18px;
+	text-align: center;
+	text-decoration: none;
+}
+*html .navigation a {
+	margin-top:35px;
+}
+.navigation a:hover {
+	background-color: #4A91C3;
+	color: #FFF;
+}
+#active a:link {
+	background-color: #4A91C3;
+	color: #FFF;
+	list-style-type:none;
+}
+#active a:hover {
+	background-color: #4A91C3;
+	color: #FFF;
+	list-style-type:none;
+}
+#active a:visited {
+	background-color: #4A91C3;
+	color: #FFF;
+	list-style-type:none;
+}
+
+/* main */
+.main {
+	width:2000px;
+	background: #FFF url(bgmain.gif) no-repeat;
+	clear: both;
+	padding: 12px 12px 0 52px;
+}
+
+/* main left */
+.sidenav {
+	float: left;
+	width: 24%;
+}
+.sidenav h1 {
+	border-bottom: 1px dashed #DDD;
+	color: #E73;
+	font-size: 1.2em;
+	height: 20px;
+	margin-top: 1.2em;
+}
+.sidenav ul {
+	margin: 0;
+	padding: 0;
+}
+.sidenav li { 
+	border-bottom: 1px dashed #EEE;
+	list-style: none;
+	margin: 0;
+}
+.sidenav li a {
+	color: #777;
+	display: block;
+	font-size: 0.9em;
+	padding: 3px 6px 3px 18px;
+	text-decoration: none;
+}
+.sidenav li a:hover {
+	color: #111;
+	background: url(nav_li.gif) no-repeat;
+}
+
+/* content */
+.content {
+	float: left;
+	margin-right: 4%;
+	width: 700px;
+	min-height:400px;
+	height:auto !important;
+	height:400px;
+}
+
+.content .descr {
+	color: #C60;
+	margin-bottom: 6px;
+}
+
+/* search form */
+.styled {
+	border: 3px double #E5E5E5;
+	padding: 2px 3px;
+}
+.button {
+	border: 1px solid #AAA;
+	margin-left: 5px;
+	padding: 2px 3px;
+}
+
+/* footer */
+.footer {
+	clear:both;
+	background: #0094D6 url(bgfooter.gif) repeat-x;
+	color: #C1DEF0;
+	font-size: 1.1em;
+	line-height: 190%;
+	text-align: center;
+        padding: 20px;
+}
+.footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footer a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+
+/****************************** flyout menus ******************************/
+
+#weebly-menus .weebly-menu-wrap {
+	z-index: 5000;
+}
+
+#weebly-menus .weebly-menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#weebly-menus .weebly-menu li {
+	float: left;
+	clear: left;
+	width: 170px;
+	text-align: left;
+}
+
+#weebly-menus .weebly-menu li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	background: #4a91c3;
+	border-right: 1px solid #4a91c3;
+	border-left: 1px solid #4a91c3;
+	border-bottom: 1px solid #58a4d9;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: normal;
+	line-height:1;
+	padding:3px;
+	color: #fff;
+}
+
+#weebly-menus .weebly-menu li a:hover {
+	background: #407ea9;
+}
+
+#weebly-menus span.weebly-menu-title {
+	display: block;
+	padding: 5px 10px;
+}
+
+#weebly-menus span.weebly-menu-more {
+	background: transparent url(http://images.weebly.com/weebly/images/submenu_arrow.gif) no-repeat center top;
+	display: block;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	font-family: Courier;
+	height: 28px;
+	line-height: 28px;
+	padding:1px 0 3px 0;
+}
+

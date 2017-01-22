@@ -1,0 +1,15 @@
+current db: oracle10g
+
+migrating to : MySQL
+
+<!--new code-->
+
+String driver = config.getServletContext().getInitParameter("mysql_driver");
+String url = config.getServletContext().getInitParameter("mysql_url");
+String dbname = config.getServletContext().getInitParameter("mysql_db");
+String username = config.getServletContext().getInitParameter("mysql_username");
+String password = config.getServletContext().getInitParameter("mysql_password");
+
+Class.forName(driver).newInstance();
+
+Connection conn = DriverManager.getConnection(url+dbname,username,password);
